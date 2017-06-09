@@ -49,6 +49,9 @@ li:hover{
   transform: translateX(-50%);
   border-bottom: 9px solid rgba(255, 199, 226, 1);
 }
+div p{
+  font-size: 14px;
+}
 
 /*BIG IMAGE*/
 #image{
@@ -65,4 +68,22 @@ li:hover{
   background-size: cover;
   filter: blur(3px);
 
+}
+
+/*PHOTOs*/
+#photos{
+  margin: 0px;
+  height: 200vh;
+  width: 100%;
+
+}
+.photo{
+  display: block;
+  width: 100%;
+  height: 50vh;
+  background-image: url('images/Radu.jpg');
+  background-size: cover;
+}
+#radu{
+  width: 100vh;
 }
