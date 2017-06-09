@@ -5,8 +5,9 @@
 
 /*NAVBAR*/
 nav{
-  height: 15%;
+  height: 150px;
   background-color: white;
+  z-index: 1;
 }
 li{
   margin-top: 25px;
@@ -56,34 +57,45 @@ div p{
 /*BIG IMAGE*/
 #image{
   width: 100%;
-  height: 100vh;
+  height: 95vh;
+  z-index: -1
 }
 
 .bigImg  {
   display: block;
   padding: 0px;
   width: 100%;
-  height: 100vh;
+  height: 95vh;
   background-image: url('https://static.pexels.com/photos/226243/pexels-photo-226243.jpeg');
   background-size: cover;
-  filter: blur(3px);
-
+  filter: blur(1px);
+  margin-bottom: 5px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /*PHOTOs*/
 #photos{
-  margin: 0px;
   height: 200vh;
   width: 100%;
-
+  background-color: white;
 }
+
 .photo{
   display: block;
-  width: 100%;
-  height: 50vh;
-  background-image: url('images/Radu.jpg');
+  padding: 0px;
+  width: 103%;
+  height: 40vh;
   background-size: cover;
+  margin: auto;
+  margin-top: 10px;
 }
+
 #radu{
-  width: 100vh;
+  background-image: url("../images/radu.jpg");
+}
+#george{
+  transform-origin: bottom;
+  background-image: url("../images/george.jpg");
 }
