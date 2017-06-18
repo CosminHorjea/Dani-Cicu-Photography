@@ -6,16 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Dani Cicu photography</title>
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <!-- jQuery first, then Bootstrap JS. -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+     <!-- jQuery first, then Bootstrap JS. -->
+
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+-->
+<link rel="stylesheet" href="css/style.css">
   </head>
+
 
   <body>
     <header>
@@ -51,9 +60,11 @@
       </nav>
 
     </header>
-  <section id="image">
-    <div class="bigImg"></div>
-  </section>
+    <section id="image">
+     <div class="bigImg"></div>
+
+
+   </section>
 
   <section id="photos">
     <div class="row">
@@ -73,16 +84,25 @@
         <div class="photo" id="radu2" data-toggle="modal" data-target="#radu2Modal"></div>
       </div>
     </div>
+    <div class="row">
+
+      <div class="col-md-9">
+        <div class="photo" id="eveniment" data-toggle="modal" data-target="#evenimentModal"></div>
+      </div>
+      <div class="col-md-3 ">
+        <div class="photo" id="mara" data-toggle="modal" data-target="#maraModal"></div>
+      </div>
+    </div>
 
   </section>
 
   <footer>
     <div class="container">
       <div class="row">
-        <div class="col-md-6 col-sm-6 col-xs-6">
+        <div class="col-md-6 col-sm-6 col-xs-4">
           <p>© 2017 by Dani Cicu.</p>
         </div>
-        <div class="col-md-3 col-sm-6 col-xs-6 pull-right" style="text-align:end">
+        <div class="col-md-6 col-sm-6 col-xs-8 pull-right" style="text-align:end">
           <p id="">Contact:</p>
           <a href="https://www.facebook.com/danicicu00" class="fa fa-facebook" target="_blank"></a>
           <a href="https://www.instagram.com/dani_cicu" class="fa fa-instagram" target="_blank"></a>
@@ -130,6 +150,16 @@
           </div>
     </div>
 
+    <div class="modal fade bs-example-modal-lg" id="maraModal" role="dialog">
+          <div class="modal-dialog modal-lg">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <img src="images/mara2.jpg" alt="profile" height="100%" width="100%">
+            </div>
+          </div>
+    </div>
+
   </section>
+
   </body>
 </html>

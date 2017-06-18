@@ -21,6 +21,8 @@ fa:visited,a:focus,a:active{
 
 /*NAVBAR*/
 nav{
+  display: block;
+
   height: 120px;
   background-color: white;
   z-index: 1;
@@ -40,6 +42,8 @@ li:hover{
 }
 .mainTitle{
   margin-top: 15px;
+  width: 100%;
+
 
 }
 
@@ -58,6 +62,8 @@ li:hover{
   transform: translateX(-50%) translateY(-20%);
   font-family: 'Libre Baskerville', serif;
   margin-top: 0px;
+  text-align: center;
+  width: 100%;
 }
 .line{
   position: absolute;
@@ -73,18 +79,21 @@ div p{
 
 
 /*BIG IMAGE*/
+
 #image{
   width: 100%;
   height: 95vh;
-  z-index: -1
+  z-index: -1;
+  overflow:hidden;
 }
 
-.bigImg  {
-  display: block;
+.bigImg{
+  background-image: url('https://static.pexels.com/photos/226243/pexels-photo-226243.jpeg');
+  width: 6000px;
+  display: inline-block;
   padding: 0px;
   width: 100%;
   height: 95vh;
-  background-image: url('https://static.pexels.com/photos/226243/pexels-photo-226243.jpeg');
   background-size: cover;
   filter: blur(2px);
   margin-bottom: 5px;
@@ -95,7 +104,7 @@ div p{
 
 /*PHOTOs*/
 #photos{
-  height: 200vh;
+  height: 4000px;
   width: 100%;
   background-color: white;
 }
@@ -143,6 +152,15 @@ div p{
   background-image: url('../images/radu2.jpg');
   background-position: 30% 30%;
 }
+#eveniment{
+  height: 60vh;
+}
+#mara{
+  background-image: url('../images/mara2.jpg');
+  height: 60vh;
+  background-position: center;
+}
+
 /*  50vh pentru poze pe 16:9 */
 /*  300px height la poze sau 15em    */
 
@@ -151,9 +169,9 @@ div p{
 
 
 .fa {
-    padding: 20px;
+    padding: 15px;
     font-size: 30px;
-    width: 50px;
+    width: 60px;
     text-align: center;
     text-decoration: none;
 }
@@ -181,12 +199,7 @@ footer div div div p{
       font-size: 20px;
 }
 
-@media (max-width:394px) {
-  footer div div div p{
-        font-size: 13px;
-        margin-top: 20px;
-  }
-}
+
 
 .fb-top{
   position: absolute;
@@ -194,6 +207,8 @@ footer div div div p{
   right:30px;
   background: #FFF;
   color: black;
+  font-size: 20px;
+  background: none;
 
 
 }
@@ -203,6 +218,8 @@ footer div div div p{
   right:0px;
   background: #FFF;
   color: black;
+  font-size: 20px;
+  background: none;
 
 }
 .insta-top:hover,.fb-top:hover{
@@ -213,4 +230,51 @@ footer div div div p{
 }
 .insta-top:focus,.fb-top:focus{
   color:black;
+}
+@media (max-width: 1200px) {
+  .fa{
+    width: 60px;
+  }
+
+}
+
+@media (max-width:414px) {
+  footer div div div p{
+        font-size: 16px;
+        margin-top: 20px;
+  }
+  footer div div div a{
+        font-size: 14px;
+        margin-top: 0px;
+        padding: 10px;
+        width: 44px;
+  }
+  .fa{
+    font-size: 16px;
+  }
+
+  .insta-top{
+    right:0px;
+    padding: 0px;
+    top:10px;
+    background: none;
+  }
+
+  .fb-top{
+    background: none;
+    top: 10px;
+    padding: 0px;
+    right:25px;
+  }
+}
+
+
+
+
+@media (min-width: 320px) {
+
+}
+
+@media (min-width: 992px) {
+
 }
