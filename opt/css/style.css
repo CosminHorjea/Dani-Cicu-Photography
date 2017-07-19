@@ -1,0 +1,56 @@
+*{margin:0px;padding:0px;}
+p{display:inline-block;}
+a{text-decoration:none;}
+fa:visited,
+a:focus,
+a:active{text-decoration:none;color:white}
+@media (max-width:460px){h1{font-size:2em;}
+}
+nav{display:block;height:120px;background-color:white;z-index:1;box-shadow:0px 2px 5px #888888;}
+li{margin-top:25px;text-transform:uppercase;color:#A0A09F;transition:color 1s;font-size:14px;line-height:18px;}
+li:hover{color:black;cursor:pointer;}
+.mainTitle{margin-top:15px;width:100%;}
+.mainTitle p{position:relative;left:50%;transform:translateX(-50%);text-align:center;vertical-align:baseline;text-transform:uppercase;font-family:'Roboto', sans-serif;}
+.mainTitle h1{position:absolute;left:50%;transform:translateX(-50%) translateY(-20%);font-family:'Libre Baskerville', serif;margin-top:0px;text-align:center;width:100%;}
+.line{position:absolute;top:0px;width:120px;left:50%;transform:translateX(-50%);border-bottom:9px solid rgba(0, 0, 0, 1);}
+div p{font-size:14px;}
+#image{width:100%;height:95vh;z-index:-1;overflow:hidden;}
+.bigImg{background-image:url('../images/background.jpg');width:auto;display:inline-block;padding:0px;width:100%;height:95vh;background-size:cover;filter:blur(0px);margin-bottom:5px;background-attachment:fixed;background-position:center;background-repeat:no-repeat;}
+#photos{height:auto;width:100%;background-color:white;}
+#photos div{margin:4px;margin-left:0px;margin-right:0px;margin-top:0px;padding:5px;padding-top:5px;padding-bottom:0px;}
+#photos div div{margin-top:0px;}
+#photos .row{margin:0px;padding:0px;}
+.photo{padding:0px;width:100%;height:40vh;background-size:cover;padding:0px;box-shadow:3px 2px 4px #888888;}
+#radu{background-image:url("../images/radu.jpg");}
+#george{background-image:url("../images/george.jpg");background-position:30% 30%;}
+#capsuna{background-image:url('../images/capsuna.jpg');background-position:center;}
+#radu2{background-image:url('../images/radu2.jpg');background-position:30% 30%;}
+#codrutz{height:60vh;background-image:url('../images/2-min.jpg');}
+#mara{background-image:url('../images/mara2.jpg');height:60vh;background-position:center;}
+#codrutz2{height:65vh;background-image:url('../images/3-min.jpg');background-position:bottom;}
+#dani{height:65vh;background-image:url('../images/dani.jpg');background-position:bottom;}
+#dani2{height:65vh;background-image:url('../images/dani2.jpg');background-position:bottom;transform:scaleX(1);}
+.fa{padding:15px;font-size:30px;width:60px;text-align:center;text-decoration:none;}
+.fa:hover{opacity:0.7;text-decoration:none;color:white;}
+.fa-facebook{background:#000;color:white;border-radius:50%;}
+.fa-instagram{background:#000;color:white;border-radius:50%;}
+footer{margin-top:20px;margin-bottom:5px;font-family:'Roboto', sans-serif;}
+footer div div div p{font-size:20px;}
+.fb-top{position:absolute;top:0px;right:30px;background:#FFF;color:black;font-size:20px;background:none;}
+.insta-top{position:absolute;top:0px;right:0px;background:#FFF;color:black;font-size:20px;background:none;}
+.insta-top:hover,
+.fb-top:hover{color:black;}
+.insta-top:active,
+.fb-top:active{color:black;}
+.insta-top:focus,
+.fb-top:focus{color:black;}
+@media (max-width:1200px){.fa{width:60px;}
+}
+@media (max-width:414px){footer div div div p{font-size:16px;margin-top:20px;}
+footer div div div a{font-size:14px;margin-top:0px;padding:10px;width:44px;}
+.fa{font-size:16px;width:45px;}
+.insta-top{right:0px;padding:0px;top:10px;background:none;}
+.fb-top{background:none;top:10px;padding:0px;right:25px;}
+}
+@media (min-width:320px){}
+@media (min-width:992px){}
